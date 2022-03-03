@@ -1,0 +1,13 @@
+.first-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-ellipsis{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+  }
